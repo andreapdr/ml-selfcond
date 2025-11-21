@@ -24,6 +24,7 @@ def analyze_expertise_for_concept(
     concept_dir: pathlib.Path,
     concept_group: str,
     concept: str,
+    cpus: int,
 ):
     """
     Analyze the expertise of a specific concept. It expects a `results_dir` with the following tree:
@@ -79,6 +80,7 @@ def analyze_expertise_for_concept(
         concept=concept,
         concept_group=concept_group,
         forcing=True,
+        cpus=cpus,
     )
     expertise_result.save(concept_exp_dir)
 
@@ -175,6 +177,7 @@ if __name__ == "__main__":
         help="Force skip for concepts with existing expertise results.",
     )
     parser.add_argument("--black", action="store_true", help="Figures in black mode")
+    parser.add_argument("--cpus", type=int, help="Number of CPUs to use", default=32)
     args = parser.parse_args()
 
     plot_in_dark_mode(args.black)
@@ -200,6 +203,7 @@ if __name__ == "__main__":
             concept_dir=concept_dir,
             concept=row["concept"],
             concept_group=row["group"],
+            cpus=args.cpus,
         )
 
         # Load results and plot

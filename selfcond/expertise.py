@@ -146,6 +146,7 @@ class ExpertiseResult:
         responses: t.Dict,
         labels: t.Sequence[int],
         forcing: bool = True,
+        cpus: int = None,
     ) -> None:
         """
         Initializes and computes expertise results for a set of response
@@ -171,7 +172,7 @@ class ExpertiseResult:
         labels = np.array(labels, dtype=int)
 
         # Average precision per unit
-        self.ap = average_precision(responses, labels)
+        self.ap = average_precision(responses, labels, cpus=cpus)
 
         # Forcing values for generation
         if self.forcing:
