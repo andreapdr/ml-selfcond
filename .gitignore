@@ -1,2 +1,4 @@
 .vscode/
 selfcond/__pycache__/
+assets/wemb/
+wemb_exps/
