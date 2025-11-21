@@ -12,7 +12,7 @@ import torch
 from torch import nn
 from torch.utils.hooks import RemovableHandle
 from dataclasses import dataclass
-from transformers import AutoModelForPreTraining, AutoConfig
+from transformers import AutoModelForPreTraining, AutoConfig, AutoModelForCausalLM
 
 
 MODEL_INPUT_FIELDS = ["input_ids", "attention_mask"]
@@ -337,6 +337,8 @@ def transformers_model_name_to_family(model_name: str) -> str:
         return "distilbert"
     elif model_name.startswith("ctrl"):
         return "ctrl"
+    elif model_name.startswith("Qwen"):
+        return "qwen"
     else:
         raise NotImplementedError(f"Model name to type not considered: {model_name}")
 
@@ -361,7 +363,9 @@ def transformers_class_from_name(
             config = AutoConfig.from_pretrained(model_name)
             m = AutoModelForPreTraining.from_config(config)
         else:
-            m = AutoModelForPreTraining.from_pretrained(model_name, cache_dir=cache_dir)
+            # m = AutoModelForPreTraining.from_pretrained(model_name, cache_dir=cache_dir)
+            m = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=cache_dir, dtype=torch.bfloat16)   # TODO: check andreapdr 20nov (to work with new models we use class ForCausalLM) 
+
     except OSError:
         raise NotImplementedError(f"Model {model_name} could not be loaded.")
     assert m is not None
@@ -413,6 +417,14 @@ def _collect_responses_info_for_model(model: TorchModel, model_family: str) -> t
             and "lm_head" not in ri.name
         ],
         # Extend to other models here
+        "qwen": [
+            ri
+            for ri in model.get_response_infos()
+            if ri.layer.kind in ["Linear", "LayerNorm"]
+            and "lm_head" not in ri.name
+            and "self_attn" not in ri.name  # constrain search to feedforward layers only (up and down projs)
+            and len(ri.shape) in [2, 3]
+        ]
     }
     return mapping[model_family]
 
