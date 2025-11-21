@@ -127,6 +127,11 @@ def plot_metric_per_layer(
         assert len(set([len(x) for x in layer_groups])) == 1
     else:
         layer_groups.append(layers)
+    
+    # sort layers by number
+    for i, layer_group in enumerate(layer_groups):
+        layer_groups[i] = sorted(layer_group, key=lambda s: int(re.search(r"model\.layers\.(\d+)", s).group(1)))
+
     colors = colors_cycle()
     y_name = metric
     for l in range(len(layer_groups[0])):

@@ -397,6 +397,11 @@ def get_layer_regex(model_name: str) -> t.Optional[t.List[str]]:
             "transformer.h.([0-9]|[0-9][0-9]).mlp.c_proj",
         ]
     # Extend to other model families here if needed
+    elif family == "qwen":
+        layer_types = [
+            "model.layers.([0-9]|[0-9][0-9]).mlp.up_proj",
+            # "model.layers.([0-9]|[0-9][0-9]).mlp.down_proj",
+        ]
     return layer_types
 
 
@@ -422,7 +427,6 @@ def _collect_responses_info_for_model(model: TorchModel, model_family: str) -> t
             for ri in model.get_response_infos()
             if ri.layer.kind in ["Linear", "LayerNorm"]
             and "lm_head" not in ri.name
-            and "self_attn" not in ri.name  # constrain search to feedforward layers only (up and down projs)
             and len(ri.shape) in [2, 3]
         ]
     }
