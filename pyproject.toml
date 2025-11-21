@@ -41,7 +41,7 @@ dependencies = [
     "matplotlib",
     "numpy",
     "scipy",
-    "sklearn",
+    "scikit-learn",
     "pandas",
     "tqdm",
     "transformers",
