@@ -191,7 +191,10 @@ if __name__ == "__main__":
         assert (data_path / "concept_list.csv").exists()
         concepts_requested = data_path / "concept_list.csv"
     else:
-        concepts_requested = args.concepts.split(",")
+        if "," in args.concepts:
+            concepts_requested = args.concepts.split(",")
+        else:
+            concepts_requested = pathlib.Path(args.concepts)
 
     # Normalize concept list into a dataframe
     concept_df = concept_list_to_df(concepts_requested)
