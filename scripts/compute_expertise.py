@@ -115,6 +115,10 @@ def build_result_figures(
     concept = df["concept"].iloc[0]
     concept_group = df["group"].iloc[0]
 
+    if layer_types_regex is not None:
+        combined_pattern = '|'.join(layer_types_regex)
+        df = df[df['layer'].str.contains(combined_pattern, regex=True)]
+
     # Print top AP
     print(df.sort_values(by="ap", ascending=False).iloc[:10])
 

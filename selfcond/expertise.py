@@ -135,7 +135,7 @@ class ExpertiseResult:
         self.ap: t.Dict = {}
         # Forcing
         self.forcing: bool = True
-        self.on_values_p50: t.Dict = {}
+        self.on_values_p50: t.Dict = {}     # on_p50 contains the median response of each unit to the positive sentences
         self.on_values_p90: t.Dict = {}
         self.off_values_mean: t.Dict = {}
 
