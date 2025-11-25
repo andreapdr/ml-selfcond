@@ -1,0 +1,51 @@
+{
+  "concept": "sunflower",
+  "group": "basic_implicit",
+  "source": "wemb",
+  "sentences": {
+    "positive": [
+      "The field was dotted with blooms that seemed to follow the sun's movement across the sky.",
+      "She arranged the vase with a cluster of blossoms that brightened any room they adorned.",
+      "He noticed the bees were particularly drawn to the center of the plant, which was bustling with activity.",
+      "The children pointed excitedly at the tall plant whose petals spread wide like open arms.",
+      "The artist captured the essence of summer with a painting featuring soft, golden hues.",
+      "During the picnic, everyone admired the sunny yellow flowers that stood proudly in the garden.",
+      "Her grandmother always planted rows of these cheerful flowers near the front door.",
+      "The bouquet she received was filled with vibrant colors, but the yellow ones caught her eye first.",
+      "He found himself humming as he worked in the garden, surrounded by these sunny plants.",
+      "The school\u2019s playground was transformed into a sea of gold when the sunflowers bloomed.",
+      "The elderly couple enjoyed watching the birds land on the flower heads, pecking at seeds.",
+      "The local florist used them extensively in bouquets, creating a warm, welcoming atmosphere.",
+      "The children\u2019s faces lit up when they saw the first buds opening on the stalks.",
+      "The landscape architect chose these flowers to line the walkway, adding a burst of color.",
+      "She baked cookies infused with the essence of these flowers, filling the house with a sweet aroma.",
+      "The farmer smiled as he counted the seeds from his harvest, knowing how much demand there would be.",
+      "The photographer loved the way the sunlight filtered through the leaves, highlighting the golden centers.",
+      "The students were tasked with observing the growth patterns and noted how they turned toward the light.",
+      "The community garden had a section dedicated to sunflowers, where visitors could take pictures and enjoy their beauty.",
+      "The gardener pruned the deadheads to encourage new growth, ensuring a continuous display of sunny yellow blooms."
+    ],
+    "negative": [
+      "For her project, she needed a medium that could withstand multiple layers.",
+      "For special occasions, the appliance was used to roast a whole turkey to perfection.",
+      "Its compact size made it perfect for tight city streets.",
+      "The evening light highlighted the subtle highlights that enhanced the dark color.",
+      "Contributors often shared their expertise on subjects that ranged from technology trends to cultural insights.",
+      "With each swing, he aimed to hit the shuttlecock with precision and power.",
+      "Her friend recommended a dress that would elongate her legs, suggesting one that stopped just shy of the knee.",
+      "The new addition to the family room featured a surface that felt cool to the touch yet offered excellent support.",
+      "A light breeze carried the scent of pine through the air, masking the faint musk of the agile animal.",
+      "The closet was a place where he could escape into his own world.",
+      "She discovered a new way to enhance the chocolate\u2019s depth by adding a subtle citrus touch.",
+      "The petals were so full and rounded, they looked almost like they were made of silk.",
+      "The flat-top feature of the screw made it easy to drive in without stripping the head.",
+      "The aroma filled the kitchen as she used a traditional piece of cookware to simmer a rich beef stew.",
+      "Its design integrates multiple power solutions to provide a balanced driving experience.",
+      "The table was transformed into a focal point by the gentle light from the holder above.",
+      "The baker kneaded the dough with her experienced hand.",
+      "During the operation, the contraption steadied the instrument with careful, calculated motions.",
+      "The office supply store had a variety of sizes, including one that could hold a lot of papers.",
+      "During the workshop, participants were encouraged to use a variety of colors."
+    ]
+  }
+}

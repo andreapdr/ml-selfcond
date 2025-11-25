@@ -1,0 +1,13 @@
+group,concept
+superordinate_implicit,animal
+superordinate_implicit,body_parts
+superordinate_implicit,clothes
+superordinate_implicit,foods
+superordinate_implicit,furnishing_fittings
+superordinate_implicit,furniture
+superordinate_implicit,hobbies
+superordinate_implicit,housing_buildings
+superordinate_implicit,kitchenware
+superordinate_implicit,plants
+superordinate_implicit,stationery
+superordinate_implicit,vehicles

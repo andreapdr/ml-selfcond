@@ -1,0 +1,51 @@
+{
+  "concept": "sunflower",
+  "group": "basic_explicit",
+  "source": "wemb",
+  "sentences": {
+    "positive": [
+      "The yellow sunflower stands tall in the garden, its bright petals catching the sunlight.",
+      "She arranged a bouquet with yellow sunflowers, their warm hues perfect for a sunny day.",
+      "The farmer planted rows of yellow sunflowers to attract bees and other pollinators.",
+      "In the vase on her desk, the yellow sunflowers brought a touch of nature indoors.",
+      "The artist chose yellow sunflowers as her subject, capturing their vibrant colors in oil paints.",
+      "During the summer festival, yellow sunflowers adorned the entrance, welcoming visitors.",
+      "The children gathered around the yellow sunflowers, fascinated by their large, golden faces.",
+      "The wedding photographer suggested a shot against a field of yellow sunflowers for the couple's portraits.",
+      "The florist designed a centerpiece with yellow sunflowers, complementing the wedding's golden theme.",
+      "The elderly woman cherished her garden of yellow sunflowers, which bloomed every summer.",
+      "The scientist studied the genetics of yellow sunflowers, hoping to develop new varieties.",
+      "The landscape architect used yellow sunflowers to add splashes of color along the walkways.",
+      "The local bakery made yellow sunflower seed cookies, drawing customers with their unique flavor.",
+      "The schoolchildren painted yellow sunflowers during their art class, learning about symmetry and color.",
+      "The botanist observed the growth patterns of yellow sunflowers, noting how they tracked the sun throughout the day.",
+      "The chef added yellow sunflower seeds to his salad, providing a crunchy texture and nutty taste.",
+      "The poet wrote a sonnet about the yellow sunflower, praising its beauty and resilience.",
+      "The gardener tended to the yellow sunflowers, ensuring they received enough water and sunlight.",
+      "The fashion designer incorporated yellow sunflower prints into her latest collection, creating a vibrant look.",
+      "The travel blogger took a photo of a field of yellow sunflowers, sharing the breathtaking sight with her followers."
+    ],
+    "negative": [
+      "The electric train's smooth ride was due to its advanced suspension system.",
+      "The artist used the ladder to reach the high windows, similar to how one might use a staircase to access upper floors.",
+      "Straw hats are not only practical but also come in various styles and colors.",
+      "When installing shelves or cabinets, half round head screws can enhance the overall appearance of the installation.",
+      "The short jacket's length stopped just above the hips, creating a flattering silhouette.",
+      "The short arm of the lever system was designed to amplify force for heavy lifting tasks.",
+      "When cooking white rice, it's important to use the correct ratio of water to rice for the best texture.",
+      "The feather cushion was carefully crafted to distribute pressure evenly, reducing the risk of neck strain.",
+      "The dining table needed to be wiped down after each meal to keep it in pristine condition.",
+      "The choice of brush can affect the transparency and opacity of the paint, allowing artists to create subtle gradients or bold contrasts.",
+      "During the picnic, the table fork was used to easily pick up sandwiches and snacks from the paper plates.",
+      "The hiker chose waterproof boots for their next expedition into the mountains.",
+      "Children often ask their parents to buy them a fun, colorful rocking chair.",
+      "The pocket mirror was the perfect size for keeping in a purse or jacket pocket.",
+      "Many varieties of dwarf pines can be pruned to maintain a specific shape or size, making them ideal for bonsai art.",
+      "A sedan typically has four doors, providing easy access for all passengers.",
+      "In some cultures, a short neck is considered a desirable trait, especially in certain breeds of dogs.",
+      "Search and rescue operations frequently employ civilian helicopters to locate and assist individuals in distress.",
+      "In some cultures, specific types of underpants are worn during certain religious or cultural ceremonies.",
+      "Their diet mainly consists of grass, hay, and occasional supplements to meet their nutritional needs."
+    ]
+  }
+}

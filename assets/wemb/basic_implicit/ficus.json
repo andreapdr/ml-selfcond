@@ -1,0 +1,51 @@
+{
+  "concept": "ficus",
+  "group": "basic_implicit",
+  "source": "wemb",
+  "sentences": {
+    "positive": [
+      "The large, lush tree in the courtyard is known for its thick canopy that provides shade throughout the summer.",
+      "Visitors often marvel at the unique aerial roots that dangle gracefully from the branches of the mature plant.",
+      "This particular species has a slow but steady growth rate, making it a favorite among those who prefer a long-term investment in landscaping.",
+      "Its leaves are a deep green and have a glossy finish that seems to catch the light as the day progresses.",
+      "The plant is quite resilient and can thrive in a variety of soil types, provided they are well-drained.",
+      "It\u2019s not uncommon to see small animals like birds and squirrels using the dense foliage as a place to rest or hide.",
+      "The trunk of the tree is remarkably strong and can withstand even the harshest weather conditions.",
+      "During the fall, the leaves change color slightly, adding a touch of autumnal beauty to the garden.",
+      "The tree\u2019s branches spread out widely, creating a natural archway that is perfect for picnics or gatherings.",
+      "The plant is often used in urban settings to create green spaces within the concrete jungle.",
+      "Its ability to grow in partial shade makes it an excellent choice for areas with limited sunlight.",
+      "The roots of this plant are known to be quite robust, sometimes even penetrating nearby structures.",
+      "It\u2019s a popular choice for those who want a tree that can serve multiple purposes, such as providing privacy or acting as a windbreak.",
+      "The tree\u2019s dense foliage helps to filter dust and pollen from the air, improving the quality of the surrounding environment.",
+      "Its size and shape make it a great focal point in any garden design, drawing the eye towards its natural beauty.",
+      "The plant requires minimal pruning, which makes maintenance relatively easy for busy homeowners.",
+      "It can grow quite large if given enough space, sometimes reaching heights of over 30 feet.",
+      "The bark of this tree is smooth and light brown, with a texture that is both interesting and tactile.",
+      "Its leaves are evergreen, ensuring year-round coverage and a touch of greenery even during the coldest months.",
+      "The tree\u2019s adaptability to different climates and its hardiness make it a versatile addition to any landscape design."
+    ],
+    "negative": [
+      "The fruit\u2019s thick skin protected its juicy, segmented interior.",
+      "He spent hours crafting the wooden box, ensuring it was just the right size for his collection of rare orchids.",
+      "During the pasta-making workshop, everyone learned to create egg noodles by hand.",
+      "The steering wheel was covered in sweat marks from the driver's grip, each turn demanding maximum control.",
+      "A young couple drove their car onto the ship, looking forward to the adventure ahead.",
+      "When not in use, it stood upright on the shelf without toppling over.",
+      "The teacher passed out new tools for correcting mistakes, ensuring every student had a smooth writing instrument.",
+      "The fish\u2019s diet required careful consideration to maintain their health and vitality.",
+      "The bandage covered the area where the muscle attached to the bone.",
+      "The sire of the new foal was known for his exceptional speed and winning streaks.",
+      "The soft, creamy texture was perfect for spreading on warm bread.",
+      "He installed the camera discreetly behind the curtains to monitor the backyard.",
+      "Compact machines were popular among musicians for their ability to run music production software smoothly.",
+      "The screen\u2019s edge lighting was so well done that it didn\u2019t cast distracting shadows in the room.",
+      "She preferred the shorter pasta over the longer ones, finding it easier to mix into sauces.",
+      "The slim stapler in her purse became a lifesaver when she needed to organize files while commuting.",
+      "A botanist studied the plant's growth patterns, noting how it spread quickly across the landscape.",
+      "The dessert was beautifully arranged on a simple yet elegant piece.",
+      "For his weightlifting routine, he opted for a flexible top that wouldn\u2019t restrict his movements.",
+      "Some people kept it as a pet due to its docile nature."
+    ]
+  }
+}

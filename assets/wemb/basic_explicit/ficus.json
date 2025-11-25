@@ -1,0 +1,47 @@
+{
+  "concept": "ficus",
+  "group": "basic_explicit",
+  "source": "wemb",
+  "sentences": {
+    "positive": [
+      "The Benjamin fig (Ficus benjamina) is a popular indoor plant known for its glossy leaves and ability to thrive in low light conditions.",
+      "Benjamin fig trees can grow up to 25 feet tall when planted outdoors but are often kept much smaller as potted houseplants.",
+      "This variety of fig tree, commonly referred to as the Benjamin fig, is native to tropical and subtropical regions of Asia.",
+      "The Benjamin fig's small, dark green leaves make it an attractive addition to any office or home interior.",
+      "One interesting feature of the Benjamin fig is its ability to produce tiny figs that are rarely if ever eaten due to their size.",
+      "Benjamin figs are often used in bonsai cultivation, where their compact growth habit makes them ideal for creating intricate miniature landscapes.",
+      "The leaves of the Benjamin fig are sometimes used in traditional medicine, although this practice is not widely recognized in modern science.",
+      "In terms of care, the Benjamin fig prefers indirect sunlight and should be watered only when the top inch of soil is dry.",
+      "Pruning the Benjamin fig regularly helps maintain its shape and encourages new growth, making it a low-maintenance plant choice.",
+      "The Benjamin fig can adapt to a wide range of temperatures, but it thrives best in environments with daytime temperatures between 65-80\u00b0F (18-27\u00b0C).",
+      "Propagation of Benjamin figs is typically done through air layering or stem cuttings, which can be easily rooted in water or soil.",
+      "The Benjamin fig has a strong root system that can make it challenging to repot, so it's important to choose a pot with drainage holes.",
+      "In its natural habitat, the Benjamin fig can grow into a large, spreading tree with a broad canopy, though it is rarely seen in this form indoors.",
+      "The Benjamin fig's aerial roots, which can dangle from the branches, add an interesting visual element to its appearance.",
+      "Some cultivars of the Benjamin fig have variegated leaves, offering a unique aesthetic appeal to gardeners and plant enthusiasts.",
+      "The Benjamin fig can be used as a screen or hedge when grown outdoors in suitable climates, providing both privacy and shade.",
+      "While the Benjamin fig is generally pest-resistant, it can occasionally suffer from spider mites or scale insects, which can be controlled with proper care.",
+      "The Benjamin fig's ability to purify the air by removing"
+    ],
+    "negative": [
+      "The double pencil sharpener's dual functionality saves space compared to having separate tools for different types of pencils.",
+      "He grabbed the large spoon to help himself to the creamy soup.",
+      "The snowboarder's boots were snug and flexible to allow for precise movements on the board.",
+      "Protecting dry hair from environmental factors like wind and sun can prevent additional dryness.",
+      "The skin on human legs can be easily damaged by sun exposure, leading to sunburn or premature aging.",
+      "Radicchio can be used as a base for a simple winter salad, topped with nuts and cheese.",
+      "The designer incorporated a high slit into the skirt for a modern look.",
+      "When applying white-out, it's important to use it sparingly to avoid over-correcting and making the document look messy.",
+      "Archaeologists have found evidence of unleavened bread dating back thousands of years.",
+      "The process of making oil bread involves a careful balance of ingredients, with oil playing a crucial role in its flakiness.",
+      "Art teachers often recommend soft crayons for students learning color theory.",
+      "Almond milk is a great option for those who are lactose intolerant or vegan.",
+      "The egg yolk content in fresh pasta contributes to its golden color and rich taste.",
+      "The hydrofoil ferry's advanced propulsion system utilized less energy per passenger mile compared to traditional ferries.",
+      "The white horse's eyes gleamed with intelligence and curiosity as it observed its surroundings.",
+      "In home improvement, flat head screws are a versatile tool that can be used in both indoor and outdoor projects.",
+      "The padded jacket's insulating properties are particularly beneficial for individuals with sensitive skin, as it can help regulate body temperature without causing overheating.",
+      "In some cultures, avocados are considered an aphrodisiac due to their creamy texture and high fat content."
+    ]
+  }
+}
