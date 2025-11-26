@@ -1,3 +1,5 @@
 .vscode/
 selfcond/__pycache__/
 wemb_exps/
+*.ipynb
+*plots/
