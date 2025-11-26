@@ -60,7 +60,8 @@ def cache_responses(
     data_loader = DataLoader(
         dataset, batch_size=batch_size, shuffle=False, collate_fn=_concatenate_data
     )
-    for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
+    # for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
+    for i, batch in enumerate(tqdm(data_loader, desc="Caching inference")):
         input_batch = {k: v for k, v in batch.items() if k in MODEL_INPUT_FIELDS}
         response_batch = model.run_inference(
             inputs=input_batch, outputs={ri.name for ri in response_infos}
