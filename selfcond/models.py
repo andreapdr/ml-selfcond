@@ -339,6 +339,8 @@ def transformers_model_name_to_family(model_name: str) -> str:
         return "ctrl"
     elif model_name.startswith("Qwen"):
         return "qwen"
+    elif model_name.startswith("HuggingFaceTB/SmolLM"):
+        return "smollm"
     else:
         raise NotImplementedError(f"Model name to type not considered: {model_name}")
 
@@ -401,6 +403,11 @@ def get_layer_regex(model_name: str) -> t.Optional[t.List[str]]:
         layer_types = [
             "model.layers.([0-9]|[0-9][0-9]).mlp.up_proj",
             # "model.layers.([0-9]|[0-9][0-9]).mlp.down_proj",
+            # "model.layers.([0-9]|[0-9][0-9]).mlp.gate_proj",
+        ]
+    elif family == "smollm":
+        layer_types = [
+            "model.layers.([0-9]|[0-9][0-9]).mlp.gate_proj"
         ]
     return layer_types
 
@@ -423,6 +430,13 @@ def _collect_responses_info_for_model(model: TorchModel, model_family: str) -> t
         ],
         # Extend to other models here
         "qwen": [
+            ri
+            for ri in model.get_response_infos()
+            if ri.layer.kind in ["Linear", "LayerNorm"]
+            and "lm_head" not in ri.name
+            and len(ri.shape) in [2, 3]
+        ],
+        "smollm": [
             ri
             for ri in model.get_response_infos()
             if ri.layer.kind in ["Linear", "LayerNorm"]
