@@ -182,6 +182,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--black", action="store_true", help="Figures in black mode")
     parser.add_argument("--cpus", type=int, help="Number of CPUs to use", default=32)
+    parser.add_argument("--filter-layers", action="store_true", help="Filter layers according to model type")
     args = parser.parse_args()
 
     plot_in_dark_mode(args.black)
@@ -217,7 +218,13 @@ if __name__ == "__main__":
             continue
         expertise_result = ExpertiseResult()
         expertise_result.load(expertise_dir)
-        layer_types_regex = get_layer_regex(model_name=args.model_name)
+        
+        # filter layers unit according to regex and model type
+        if args.filter_layers:
+            layer_types_regex = get_layer_regex(model_name=args.model_name)
+        else:
+            layer_types_regex = None
+
         build_result_figures(
             expertise_result=expertise_result,
             results_dir=expertise_dir,
